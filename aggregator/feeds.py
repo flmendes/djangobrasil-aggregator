@@ -8,7 +8,7 @@
 
 from django.contrib.syndication.feeds import Feed
 from django.utils.feedgenerator import Atom1Feed
-from djangobrasil.apps.aggregator.models import FeedItem
+from aggregator.models import FeedItem
 
 
 class RssCommunityAggregatorFeed(Feed):

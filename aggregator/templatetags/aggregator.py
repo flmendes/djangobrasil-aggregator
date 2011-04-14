@@ -7,7 +7,7 @@
 
 
 from django import template
-from djangobrasil.apps.aggregator.models import Feed
+from aggregator.models import Feed
 
 class FeedListNode(template.Node):
     def __init__(self, varname):
